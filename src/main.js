@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (app) {
       app.innerHTML = await Page.render(id)
       ok
+      huy,huy
     }
     if (Page.afterRender) Page.afterRender()
   }
