@@ -6,8 +6,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const app = document.querySelector('#app')
     if (app) {
       app.innerHTML = await Page.render(id)
-      ok
-      huy,huy
     }
     if (Page.afterRender) Page.afterRender()
   }
