@@ -1,5 +1,5 @@
 import Navigo from 'navigo'
-import { home } from './pages/home'
+import { home } from './client/pages/home'
 const router = new Navigo('/', { linksSelector: 'a' })
 document.addEventListener('DOMContentLoaded', async () => {
   async function print(Page, id) {
